@@ -1,5 +1,17 @@
 (function () {
   'use strict';
+  var backTop = document.querySelector('.floating-back-top');
+  if (backTop) {
+    function updateBackTop() {
+      var scrolled = (window.pageYOffset || document.documentElement.scrollTop || 0) > 0;
+      if (scrolled) backTop.removeAttribute('hidden');
+      else backTop.setAttribute('hidden', '');
+    }
+    window.addEventListener('scroll', updateBackTop);
+    window.addEventListener('pageshow', updateBackTop);
+    updateBackTop();
+  }
+
   var tabs = document.querySelectorAll('[role="tab"]');
   function selectDay(tab, focus) {
     for (var i = 0; i < tabs.length; i++) {
@@ -24,7 +36,7 @@
   }
   for (var i = 0; i < tabs.length; i++) bindTab(tabs[i], i);
 
-  var links = document.querySelectorAll('nav a');
+  var links = document.querySelectorAll('nav a[href^="#"]');
   function setActive(id) {
     for (var j = 0; j < links.length; j++) {
       var active = links[j].hash === '#' + id;

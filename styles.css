@@ -38,3 +38,53 @@
 }
 
 .links-list{list-style:none;padding:0;margin:0}.links-list li{margin:0 0 12px}.links-list a{text-decoration:underline;text-underline-offset:3px;line-height:1.6}
+
+/* Portraits are local files. Table-cell layout keeps the image and text stable
+   without depending on Grid, flex-gap, or external image hosts. */
+.people .speaker{display:table;table-layout:fixed;width:100%;min-height:120px;margin:0 0 22px}
+.speaker-portrait{display:table-cell;position:relative;width:96px;height:120px;overflow:hidden;vertical-align:middle;background:#f1f4f6}
+.speaker-portrait img{display:block;width:96px;height:120px;object-fit:cover;object-position:center 25%}
+.speaker-details{display:table-cell;vertical-align:middle;padding-left:20px;overflow-wrap:break-word}
+.speaker-details .speaker-name{font-weight:600;line-height:1.5}
+.speaker-details .speaker-name span{display:block}
+.speaker-details .speaker-name span:first-child{margin-right:0}
+.speaker-details .speaker-name [lang=zh]{font-weight:400;font-size:15px;margin-top:2px}
+.speaker-details .speaker-affiliation{margin-top:7px;font-size:14px;line-height:1.5}
+/* Display-only framing: original official photographs remain intact. */
+.portrait-kuriyama img{position:absolute;max-width:none;width:480%;height:auto;left:-196%;top:-28%}
+@media(min-width:541px) and (max-width:760px){.speaker-groups{display:block}.speaker-groups>div+div{margin-top:30px}}
+@media(max-width:540px){.speaker-details{padding-left:16px}.people .speaker{margin-bottom:20px}.speaker-details .speaker-name{font-size:16px}}
+@media print{.people .speaker{break-inside:avoid}}
+
+/* Committee portraits follow the speaker layout, with a separate chair row. */
+.committee-card{display:table;table-layout:fixed;width:100%;min-height:120px}
+.committee-portrait{display:table-cell;width:96px;height:120px;vertical-align:middle}
+.committee-portrait img{display:block;width:96px;height:120px;object-fit:cover;object-position:center 25%;background:#f1f4f6}
+.committee-details{display:table-cell;vertical-align:middle;padding-left:20px;overflow-wrap:break-word}
+.committee-details h4{display:block;font-size:17px;line-height:1.5}
+.committee-list .committee-details p,.chair .committee-details p{display:block;font-size:14px;line-height:1.6;color:#657787;margin:7px 0 0}
+.committee-list .committee-details p:before,.chair .committee-details p:before{content:none}
+.committee-list li{margin-bottom:22px}
+.committee-content .chair{margin-bottom:30px}
+@supports(display:grid){@media(min-width:761px){.committee-list{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);column-gap:50px;row-gap:22px}.committee-list li{margin-bottom:0}}}
+@media(max-width:540px){.committee-details{padding-left:16px}.committee-details h4{font-size:16px}.committee-list li{margin-bottom:20px}}
+@media print{.committee-card{break-inside:avoid}}
+
+/* Gallery is a separate page; the homepage only links to it. */
+nav{flex-wrap:wrap}
+.gallery-empty{text-align:center;background:#f1f6fa;border:1px solid #dce4eb;padding:46px 24px 40px;margin:0 0 8px}
+.gallery-empty svg{display:block;width:48px;height:48px;margin:0 auto 18px;color:#1e547e}
+.gallery-empty h3{font-size:22px;margin:0 0 10px}
+.gallery-empty p{color:#657787;max-width:480px;margin:0 auto 24px}
+.gallery-home-link{display:inline-block;border:1px solid #123e6c;padding:8px 20px;font-size:15px;font-weight:600}
+.gallery-home-link:hover{background:#123e6c;color:white;text-decoration:none}
+@media(max-width:540px){nav a{font-size:13px;padding:13px 6px}.gallery-empty{padding:32px 18px}.gallery-empty h3{font-size:20px}}
+
+@media(max-width:360px){nav a{font-size:12px;padding-left:4px;padding-right:4px}}
+
+/* Viewport-fixed return link, revealed only after leaving the top. */
+.floating-back-top{position:fixed;right:24px;bottom:24px;z-index:20;display:flex;align-items:center;justify-content:center;width:46px;height:46px;border-radius:50%;border:1px solid #123e6c;background:#123e6c;color:#fff;box-shadow:0 3px 12px rgba(18,62,108,.2);text-decoration:none}
+.floating-back-top svg{width:22px;height:22px}
+.floating-back-top:hover{background:#1e547e;color:#fff;text-decoration:none}
+@media(max-width:540px){.floating-back-top{right:14px;bottom:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));width:44px;height:44px}}
+@media print{.floating-back-top{display:none!important}}

@@ -1,0 +1,51 @@
+Speaker photo sources — accessed 2026-10-24
+Original files retained; cropping is display-only CSS.
+Kuriyama: center person in official award photo; caption identifies him. Replace with an individual portrait when available.
+
+ohshima
+Page: https://green.phar.kyushu-u.ac.jp/member/member.html
+Image: https://green.phar.kyushu-u.ac.jp/_src/680/img20180514224137726254.jpg
+
+fan
+Page: https://ic.cas.cn/about/xrld/202307/t20230725_6950608.html
+Image: https://ic.cas.cn/about/xrld/202307/W020240109658505403146.jpg
+
+chi
+Page: https://personal.ntu.edu.sg/robinchi/
+Image: https://personal.ntu.edu.sg/robinchi/index_files/image003.jpg
+
+wang
+Page: https://chem.scu.edu.cn/info/1045/8464.htm
+Image: https://chem.scu.edu.cn/__local/F/5A/06/9ED40DDB0F433D936B866CAC8FD_4926B255_1907A.png
+
+tan
+Page: https://www.sustech.edu.cn/zh/faculties/english-bin-tan.html
+Image: https://www.sustech.edu.cn/uploads/medium/2020/04/28153248_11022.png
+
+kwong
+Page: https://chem.cuhk.edu.hk/people/academic-staff/kfy/
+Image: https://chem.cuhk.edu.hk/wp-content/uploads/kfy.jpg
+
+sun
+Page: https://sunlab.hkust.edu.hk/jianwei.html
+Image: https://sunlab.hkust.edu.hk/images/img5.jpg
+
+ishihara
+Page: https://www.ph.nagasaki-u.ac.jp/lab/manufac/member.html
+Image: https://www.ph.nagasaki-u.ac.jp/lab/manufac/_src/sc1688/ishihara.jpg
+
+kuriyama
+Page: https://www.nagasaki-u.ac.jp/ja/news/news4543.html
+Image: https://www.nagasaki-u.ac.jp/ja/news/include/file/article/images/2025/01/20250131_2.jpg
+
+huang
+Page: https://chemistry.hku.hk/people/academic_staff_teaching/47/
+Image: https://chemistry.hku.hk/img/?hash=38de6214c23dfa2c3718aec16d6ecee1.png
+
+zhang
+Page: https://chem.cuhk.edu.hk/people/academic-staff/zxl/
+Image: https://chem.cuhk.edu.hk/wp-content/uploads/xinglong-1.jpg
+
+shang
+Page: https://chembioins.sjtu.edu.cn/info/1028/1418.htm
+Image: https://chembioins.sjtu.edu.cn/__local/A/CF/57/11B92C6B4DD501C98C56A6713EF_57F34196_7DF8.jpg
