@@ -96,3 +96,17 @@ nav{flex-wrap:wrap}
 .session-chair{display:inline-block;margin-left:24px;font-weight:400}
 .program-table .meal-row td{width:auto;white-space:normal;font-size:16px;padding-top:14px;padding-bottom:14px}
 @media(max-width:540px){.program-table .session-row th{padding:10px 9px;font-size:14px}.session-chair{display:block;margin:3px 0 0}.program-table .meal-row td{font-size:14px}}
+
+/* Registration QR codes alongside the About introduction. */
+.about-layout{display:flex;align-items:flex-start;gap:48px}
+.about-layout .about-copy{flex:1;min-width:0;font-size:18px;line-height:1.95}
+.about-layout .about-copy p:first-child{margin-top:0}
+.registration-platforms{display:flex;flex-direction:column;gap:12px;flex:0 0 304px;margin:0}
+.registration-platform{margin:0;text-align:center;min-width:0}
+.registration-platform figcaption{line-height:1.5}
+.registration-qr-link{display:block;width:147px;max-width:100%;margin:0 auto 6px}
+.registration-qr-link img{display:block;width:100%;height:auto}
+.registration-button{display:inline-block;color:#123e6c;font-size:14px;font-weight:600;line-height:1.6;text-decoration:underline;text-underline-offset:4px;text-decoration-color:#a3b5c7}
+.registration-button:hover{color:#1e547e;text-decoration-color:currentColor}
+.registration-button span[aria-hidden]{display:inline-block;margin-left:4px}
+@media(max-width:900px){.about-layout{flex-direction:column;gap:24px}.about-layout .about-copy{font-size:17px;line-height:1.75}.registration-platforms{flex:auto;align-self:center;width:210px}}
