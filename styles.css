@@ -51,6 +51,8 @@
 .speaker-details .speaker-name [lang=zh]{font-weight:400;font-size:15px;margin-top:2px}
 .speaker-details .speaker-affiliation{margin-top:7px;font-size:14px;line-height:1.5}
 /* Display-only framing: original official photographs remain intact. */
+/* Frame Tang’s official half-length photo as a head-and-shoulders portrait. */
+.portrait-tang img{position:absolute;max-width:none;width:170%;height:auto;left:-27%;top:-6%}
 .portrait-kuriyama img{position:absolute;max-width:none;width:480%;height:auto;left:-196%;top:-28%}
 @media(min-width:541px) and (max-width:760px){.speaker-groups{display:block}.speaker-groups>div+div{margin-top:30px}}
 @media(max-width:540px){.speaker-details{padding-left:16px}.people .speaker{margin-bottom:20px}.speaker-details .speaker-name{font-size:16px}}
@@ -88,3 +90,9 @@ nav{flex-wrap:wrap}
 .floating-back-top:hover{background:#1e547e;color:#fff;text-decoration:none}
 @media(max-width:540px){.floating-back-top{right:14px;bottom:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));width:44px;height:44px}}
 @media print{.floating-back-top{display:none!important}}
+
+/* Session headers keep chair information readable without a narrow third column. */
+.program-table .session-row th{width:auto;white-space:normal;background:#e7eef5;color:#123e6c;padding:10px 18px;font-size:15px}
+.session-chair{display:inline-block;margin-left:24px;font-weight:400}
+.program-table .meal-row td{width:auto;white-space:normal;font-size:16px;padding-top:14px;padding-bottom:14px}
+@media(max-width:540px){.program-table .session-row th{padding:10px 9px;font-size:14px}.session-chair{display:block;margin:3px 0 0}.program-table .meal-row td{font-size:14px}}

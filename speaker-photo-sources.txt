@@ -49,3 +49,8 @@ Image: https://chem.cuhk.edu.hk/wp-content/uploads/xinglong-1.jpg
 shang
 Page: https://chembioins.sjtu.edu.cn/info/1028/1418.htm
 Image: https://chembioins.sjtu.edu.cn/__local/A/CF/57/11B92C6B4DD501C98C56A6713EF_57F34196_7DF8.jpg
+
+tang
+Page: https://sioc.cas.cn/sourcedb/cn/team/smyj/201107/t20110723_6773072.html
+Image: https://sioc.cas.cn/sourcedb/cn/team/smyj/201107/W020240923520954321379.png
+Accessed: 2026-11-02
